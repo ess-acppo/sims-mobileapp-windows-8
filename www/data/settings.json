@@ -1,0 +1,61 @@
+{
+  "settings": {
+    "mapSets": [
+      {
+        "mapsetID": 0,
+        "mapSetName": "Hybrid Maps",
+        "mapPath": "ms-appdata:///local/maps/",
+        "emptyTilePath": "maps/empty.jpg",
+        "greenTilePath": "maps/green.jpg",
+        "downloadPath": "http://dev-sims.oztaxa.com/files/maps/BASE/",
+        "numfiles": 1,
+        "startZoom": 9,
+        "endZoom": 16,
+        "activeFlag": 1,
+        "downloaded": 0,
+        "lastDownloadBDate": "09/09/1900",
+        "lastDownloadDate": "09/09/1900",
+        "curActivity": 0,
+        "mapCenter": {
+          "lat": "-35.267905",
+          "lng": "149.130706"
+        },
+        "mapBounds": {
+          "topLat": "-35.116794",
+          "leftLng": "148.738798",
+          "bottomLat": "-35.920108",
+          "rightLng": "149.428397"
+        }
+      }
+    ],
+    "device": {
+      "ownerId": "NONE",
+      "ownerName": "XXXXXXXX",
+      "ownerRole": "Botanist",
+      "ownerTeam": "NPH",
+      "samplePrefix": "XX",
+      "sampleStartNumber": 0,
+      "currentSampleNumber": 0,
+      "debugMode": 0
+    },
+    "auth": {
+      "lastLoggedIn":  []
+    },
+    "app": {
+      "appMode": "PH",
+      "serverMode": "UAT",
+      "devServerAddress": "https://online-dev.agriculture.gov.au/",
+      "sitServerAddress": "https://online-sit.agriculture.gov.au/",
+      "uatServerAddress": "https://online-uat.agriculture.gov.au/",
+      "prodServerAddress": "https://online.agriculture.gov.au/",
+      "authAddress": "ords-int/rest/sims/plant_health/taxa",
+      "activityAddress": "ords-int/rest/sims/plant_health/activity",
+      "refCodesAddress": "ords-int/rest/sims/plant_health/referenceCodes",
+      "BPHStaffAddress": "ords-int/rest/sims/common/program/BPH/team",
+      "IPHStaffAddress": "ords-int/rest/sims/common/program/IPH/team",
+      "NPHStaffAddress": "ords-int/rest/sims/common/program/NPH/team",
+      "taxaAddress": "ords-int/rest/sims/plant_health/taxa",
+      "submitPHObsAddress": "psd.comr.svl/PlantHealthService/1.0/createPlantHealthObservation"
+    }
+  }
+}

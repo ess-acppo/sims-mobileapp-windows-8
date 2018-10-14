@@ -1,0 +1,39 @@
+{
+  "name": "cordova-sqlite-legacy-build-support",
+  "version": "1.3.5",
+  "description": "Native interface to SQLite for PhoneGap/Cordova (legacy build support)",
+  "cordova": {
+    "id": "cordova-sqlite-legacy-build-support",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "wp8"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raphaelluiz128/cordova-sqlite-legacy-build-support.git"
+  },
+  "keywords": [
+    "sqlite",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-wp8"
+  ],
+  "author": "various",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphaelluiz128/cordova-sqlite-legacy-build-support/issues"
+  },
+  "private": false,
+  "homepage": "https://github.com/raphaelluiz128/cordova-sqlite-legacy-build-support",
+  "scripts": {
+    "start": "node scripts/prepareSpec.js"
+  },
+  "devDependencies": {
+    "shelljs": "^0.7.4"
+  }
+}
