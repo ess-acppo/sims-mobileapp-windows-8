@@ -27500,11 +27500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\sims-mobile-windows-v2\\sims-mobile-windows-v2\\sims-mobile-windows-v2\\plugins\\cordova-plugin-zeep\\src\\windows\\FiNeZeep\\FineZeep.csproj",
+      "projectUniqueName": "C:\\sims-mobile-windows-8-v3\\sims-mobile-windows-8-v3\\plugins\\cordova-plugin-zeep\\src\\windows\\FiNeZeep\\FineZeep.csproj",
       "projectName": "FineZeep",
-      "projectPath": "C:\\sims-mobile-windows-v2\\sims-mobile-windows-v2\\sims-mobile-windows-v2\\plugins\\cordova-plugin-zeep\\src\\windows\\FiNeZeep\\FineZeep.csproj",
+      "projectPath": "C:\\sims-mobile-windows-8-v3\\sims-mobile-windows-8-v3\\plugins\\cordova-plugin-zeep\\src\\windows\\FiNeZeep\\FineZeep.csproj",
       "packagesPath": "C:\\Users\\jonna\\.nuget\\packages\\",
-      "outputPath": "C:\\sims-mobile-windows-v2\\sims-mobile-windows-v2\\sims-mobile-windows-v2\\plugins\\cordova-plugin-zeep\\src\\windows\\FiNeZeep\\obj\\",
+      "outputPath": "C:\\sims-mobile-windows-8-v3\\sims-mobile-windows-8-v3\\plugins\\cordova-plugin-zeep\\src\\windows\\FiNeZeep\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

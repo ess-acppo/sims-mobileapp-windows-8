@@ -2501,6 +2501,26 @@ $(document).on('click', 'a.downloadBaseMaps', function (e) {
     $('#mb8 .progTime').text(new Date().toString());
     getFileandExtractWin(url, mapset, 1, numfiles);
 });
+//$(document).on('click', 'a.downloadBaseMaps', function (e) {
+//    $('#modalDownload').modal();
+//    $('#mb8 .progText').text("Download in progress ...");
+//    $('#mb8 .progress').removeClass('hide');
+//    var scale = 1 << 9;
+//    minX = -1.40610883529230;
+//    minY = 110.39062500000000;
+//    maxX = -44.59046717769615;
+//    maxY = 158.90625000000000;
+//    var minLatLng = new google.maps.LatLng(minX, minY);
+//    var maxLatLng = new google.maps.LatLng(maxX, maxY);
+//    var wC1 = project(minLatLng);
+//    var wC2 = project(maxLatLng);
+//    var pC1x = Math.floor(wC1.x * scale / TILE_SIZE) - 1;
+//    var pC1y = Math.floor(wC1.y * scale / TILE_SIZE) - 1;
+//    var pC2x = Math.floor(wC2.x * scale / TILE_SIZE) + 1;
+//    var pC2y = Math.floor(wC2.y * scale / TILE_SIZE) + 1;
+//    tiles = 0;
+//    fetchAndSaveTile(pC1x, pC1y, 9, pC2x, pC1y, pC2y);
+//});
 $(document).on('click', 'a.downloadMaps', function (e) {
     var str = $('#curActivities').val();
     if (str === "0") { return true; }

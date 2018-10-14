@@ -79,6 +79,13 @@
         <framework src="libz.dylib" />
     </platform>
 
+	<platform name="windows">
+		<js-module src="src/windows/ZeepProxy.js" name="ZeepProxy">
+			<merges target="" />
+		</js-module>
+		<framework src="src/windows/FiNeZeep/bin/Debug/FiNeZeep.winmd" custom="true" />
+	</platform>
+	
 	<!--
 	<platform name="wp7">
 		<config-file target="config.xml" parent="/*">
@@ -88,8 +95,7 @@
 		</config-file>
 		<framework src="src/wp/ICSharpCode.SharpZipLib.dll" custom="true"/>
 		<source-file src="src/wp/Zeep.cs" />
-	</platform>
-
+	</platform>	
 	<platform name="wp8">
 		<config-file target="config.xml" parent="/*">
 			<feature name="Zeep">
@@ -98,17 +104,9 @@
 		</config-file>
 		<framework src="src/wp/ICSharpCode.SharpZipLib.dll" custom="true"/>
 		<source-file src="src/wp/Zeep.cs" />
-	</platform>
+	</platform>	
+
 	-->
-
-	<platform name="windows">
-		<js-module src="src/windows/ZeepProxy.js" name="ZeepProxy">
-			<merges target="" />
-		</js-module>
-		<framework src="src/windows/FiNeZeep/bin/Debug/ICSharpCode.SharpZipLib.dll" custom="true" />
-		<framework src="src/windows/FiNeZeep/bin/Debug/FiNeZeep.winmd" custom="true" />
-	</platform>
-
 	<!--
 	TODO: Document: Add to config.xml
 	<preference name="windows-phone-target-version" value="10.0" />

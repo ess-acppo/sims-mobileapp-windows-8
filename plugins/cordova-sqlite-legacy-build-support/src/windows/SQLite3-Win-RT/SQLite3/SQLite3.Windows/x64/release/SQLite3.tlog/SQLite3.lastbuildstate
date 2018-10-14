@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=:PlatformToolSet=v120:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+release|x64|C:\sims-mobile-windows-8-v3\sims-mobile-windows-8-v3\plugins\cordova-sqlite-legacy-build-support\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.Windows\|

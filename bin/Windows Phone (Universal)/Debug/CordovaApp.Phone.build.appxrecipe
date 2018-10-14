@@ -8,7 +8,7 @@
     <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
     <SolutionConfiguration>debug|arm</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
-    <PackageIdentityName>9787c410-cf84-11e8-827e-2bbf7a3301a9</PackageIdentityName>
+    <PackageIdentityName>7968c090-c3e7-11e8-929b-cff1ba359a4f</PackageIdentityName>
     <PackageIdentityPublisher>CN=%24username%24</PackageIdentityPublisher>
     <IntermediateOutputPath>C:\sims-mobile-windows-8-v3\sims-mobile-windows-8-v3\platforms\windows\build\phone\bld\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
@@ -27,9 +27,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sims-mobile-windows-8-v3\sims-mobile-windows-8-v3\plugins\cordova-sqlite-legacy-build-support\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.WindowsPhone\arm\debug\SQLite3.WindowsPhone\SQLite3.winmd">
       <PackagePath>SQLite3.winmd</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\sims-mobile-windows-8-v3\sims-mobile-windows-8-v3\platforms\windows\plugins\cordova-plugin-zeep\ICSharpCode.SharpZipLib.dll">
-      <PackagePath>ICSharpCode.SharpZipLib.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\sims-mobile-windows-8-v3\sims-mobile-windows-8-v3\plugins\cordova-sqlite-legacy-build-support\src\windows\SQLite3-Win-RT\SQLite3\SQLite3.WindowsPhone\arm\debug\SQLite3.WindowsPhone\SQLite3.dll">
       <PackagePath>SQLite3.dll</PackagePath>
