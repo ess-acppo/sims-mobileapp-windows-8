@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="io.cordova.ESFAWP8" Publisher="CN=Apache Cordova Team" Version="1.1.8.0" ProcessorArchitecture="x64" />
+  <Identity Name="io.cordova.ESFAWP8" Publisher="CN=Apache Cordova Team" Version="1.1.9.0" ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>ESFA - Enterprise Surveillance Field App</DisplayName>
     <PublisherDisplayName>Department of Agriculture and Water Resources</PublisherDisplayName>

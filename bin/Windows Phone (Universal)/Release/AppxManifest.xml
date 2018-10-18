@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="io.cordova.ESFAWP8" Publisher="CN=$username$" Version="1.1.8.0" ProcessorArchitecture="arm" />
+  <Identity Name="io.cordova.ESFAWP8" Publisher="CN=$username$" Version="1.1.9.0" ProcessorArchitecture="arm" />
   <mp:PhoneIdentity PhoneProductId="7968c090-c3e7-11e8-929b-cff1ba359a4f" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
   <Properties>
     <DisplayName>ESFA - Enterprise Surveillance Field App</DisplayName>
