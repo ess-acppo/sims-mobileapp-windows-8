@@ -1252,9 +1252,10 @@ text-right {
         margin: 0px auto;
     }
 
-    #modalAuth .modal-dialog {
-        width: 50%;
-        margin: 4% auto;
+    #loading {
+        margin-top: 20%;
+        margin-left: 47%;
+        color: #ddd;
     }
 }
 
@@ -1305,6 +1306,12 @@ text-right {
 
     #modalDownload .modal-dialog {
         width: 90%;
+    }
+
+    #loading {
+        margin-top: 45%;
+        margin-left: 42%;
+        color: #ddd;
     }
 }
 
